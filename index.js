@@ -16,7 +16,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get("/", function (reg, res) {
-  return res.send({ error: true, message: "Halloo from github" });
+  return res.send({ error: true, message: "Halloo from github edit" });
 });
 
 // Global Var
